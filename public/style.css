@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333333;
+  }
+
+  .form-grp {
+    margin-bottom: 20px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #cardView {
+    margin-top: 30px;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+
+  .card-body {
+    display: flex;
+    align-items: center;
+  }
+
+  .card-text {
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #333333;
+  }
+
+  .checked {
+    text-decoration: line-through;
+  }
+
+  .delete-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
